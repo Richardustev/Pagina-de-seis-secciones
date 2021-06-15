@@ -9,6 +9,10 @@ html{
     background: #f0f0f0;
 }
 
+iframe{
+    display: block;
+}
+
 a{
     text-decoration: none;
     color: #000;
@@ -44,6 +48,16 @@ a{
     border-bottom: solid 2px #000;
 }
 
+#body{
+    border-top: solid 3px #000;
+    background: #fff;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 20px;
+}
+
 #footer{
     color: #ffff;
     text-align: center;
@@ -53,22 +67,51 @@ a{
     background-image: url(./img/background.jpg);
 }
 
+.body-title{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.body-content > h3{
+    margin-left: 10px;
+}
+
+.video{
+    margin: auto;
+    width: 50%
+}
+
+.body-title > img{
+    margin: 10px;
+    width: 100px;
+    border-radius: 360px;
+}
+
 .title{
     font-size: 50px;
     font-weight: 700;
 }
 
 .sub-title{
-    color: rgb(0, 139, 204);
+    color: rgb(53, 53, 53);
 }
 
 .center{
     text-align: center;
 }
 
-@media (max-width: 1200px) {
+.active-page{
+    border-bottom: solid 2px #000;
+}
+
+@media (max-width: 900px) {
     #body{
         width: 100%;
         padding: 0;
+    }
+
+    .video{
+        width: 100%
     }
 }
