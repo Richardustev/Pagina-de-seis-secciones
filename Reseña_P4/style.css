@@ -114,14 +114,19 @@ a{
     text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     #body{
-        width: 90%;
+        width: 100%;
+        padding: 0;
     }
 
     .body-header{
         border-left: none;
         border-right: none;
         padding: 15vh 0vh;
+    }
+
+    .content-info{
+        margin: 10px;
     }
 }
