@@ -6,7 +6,7 @@
 
 html{
     width: 100%;
-    background: #d3d3d3;
+    background: #f0f0f0;
 }
 
 a{
@@ -27,7 +27,6 @@ a{
     width: 100%;
     justify-content: center;
     text-decoration: none;
-    border-bottom: solid 3px #000;
 }
 
 #nav > ol{
@@ -42,11 +41,11 @@ a{
 }
 
 #nav > ol > li:hover{
-    border-left: solid 1px #000;
-    border-right: solid 1px #000;
+    border-bottom: solid 2px #000;
 }
 
 #body{
+    border-top: solid 3px #000;
     background: #fff;
     margin: auto;
     margin-top: 10px;
@@ -69,8 +68,6 @@ a{
     padding: 30vh 0vh;
     filter: brightness(80%);
     background-size: cover;
-    border-left: solid 5px #000;
-    border-right: solid 5px #000;
     background-image: url(./img/persona-4-front.jpg);
 }
 
