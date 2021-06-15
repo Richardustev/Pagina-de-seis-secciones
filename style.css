@@ -6,6 +6,7 @@
 
 html{
     width: 100%;
+    background: #d3d3d3;
 }
 
 a{
@@ -17,10 +18,11 @@ a{
 #header{
     padding: 10px 0 10px 0;
     color: rgba(240, 248, 255, 0.973);
-    background-image: url(./img/background.png);
+    background-image: url(./img/background.jpg);
 }
 
 #nav{
+    background: #fff;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -45,16 +47,27 @@ a{
 }
 
 #body{
+    background: #fff;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 80%;
-    padding: 10px;
+    padding: 20px;
+}
+
+#footer{
+    color: #ffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    background-image: url(./img/background.jpg);
 }
 
 .body-header{
     width: 100%;
     padding: 30vh 0vh;
+    filter: brightness(80%);
     background-size: cover;
     border-left: solid 5px #000;
     border-right: solid 5px #000;
@@ -70,13 +83,31 @@ a{
     color: #000;
 }
 
-.content-title > h2{
-    color: rgb(0, 139, 204);
+.content-info{
+    text-align: justify;
+    font-weight: 400;
+}
+
+.content-info > img{
+    width: 60%;
+    border-left: solid 5px #000;
+}
+
+.content-info > p{
+    width: 90%;
+}
+
+.content-info > em{
+    color: rgb(170, 170, 170);
 }
 
 .title{
     font-size: 50px;
     font-weight: 700;
+}
+
+.sub-title{
+    color: rgb(0, 139, 204);
 }
 
 .center{
@@ -85,7 +116,7 @@ a{
 
 @media (max-width: 900px) {
     #body{
-        width: 97%;
+        width: 90%;
     }
 
     .body-header{
