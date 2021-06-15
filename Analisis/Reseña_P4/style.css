@@ -37,7 +37,7 @@ a{
 
 #nav > ol > li{
     margin: 0 10px 0 10px;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 #nav > ol > li:hover{
@@ -117,6 +117,12 @@ a{
         padding: 0;
     }
 
+    #nav > ol > li{
+        font-size: 15px;
+        margin: 0 5px;
+        padding: 10px 0px;
+    }
+
     .body-header{
         border-left: none;
         border-right: none;
@@ -125,5 +131,10 @@ a{
 
     .content-info{
         margin: 10px;
+    }
+    
+    .title{
+        font-size: 20px;
+        font-weight: 700;
     }
 }

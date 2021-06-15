@@ -41,7 +41,7 @@ a{
 
 #nav > ol > li{
     margin: 0 10px 0 10px;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 #nav > ol > li:hover{
@@ -106,9 +106,20 @@ a{
 }
 
 @media (max-width: 900px) {
+    #nav > ol > li{
+        font-size: 15px;
+        margin: 0 5px;
+        padding: 10px 0px;
+    }
+
     #body{
         width: 100%;
         padding: 0;
+    }
+
+    .title{
+        font-size: 20px;
+        font-weight: 700;
     }
 
     .video{
