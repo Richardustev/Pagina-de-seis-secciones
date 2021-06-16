@@ -105,6 +105,10 @@ a{
 }
 
 @media (max-width: 900px) {
+    #footer{
+        display: none;
+    }
+
     #nav > ol > li{
         font-size: 15px;
         margin: 0 5px;
