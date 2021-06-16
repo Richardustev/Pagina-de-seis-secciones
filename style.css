@@ -54,29 +54,26 @@ a{
     padding: 20px;
 }
 
-#footer{
-    color: #ffff;
-    text-align: center;
-    padding: 15px;
-    font-size: 15px;
-    margin-bottom: 0px;
-    background-image: url(./img/background.jpg);
-}
-
 .body-title{
     display: flex;
+    flex-direction: column;
     padding: 10px;
+    justify-content: center;
     align-items: center;
 }
 
-.body-content > h3{
-    margin-left: 10px;
+.body-title > img{
+    border: solid 2px rgb(173, 84, 247);
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 360px;
 }
 
-.body-title > img{
-    margin: 10px;
-    width: 100px;
-    border-radius: 360px;
+.body-title > img:hover{
+    cursor: pointer;
+    filter: brightness(110%);
 }
 
 .title{
