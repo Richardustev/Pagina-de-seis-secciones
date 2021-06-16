@@ -9,11 +9,6 @@ html{
     background: #f0f0f0;
 }
 
-h3{
-    margin-left: 10px;
-    text-align: center;
-}
-
 a{
     text-decoration: none;
     color: #000;
@@ -68,66 +63,89 @@ a{
     background-image: url(./img/background.jpg);
 }
 
+.body-header{
+    width: 100%;
+    padding: 30vh 0vh;
+    filter: brightness(80%);
+    background-size: cover;
+    background-image: url(./img/Personajes.jpg);
+}
+
+.body-header-title{
+    color: #fff;
+}
+
+.content-title{
+    font-weight: normal;
+    color: #000;
+}
+
+.content-info{
+    text-align: justify;
+    font-weight: 400;
+}
+
+.content-info > img{
+    width: 53%;
+}
+
+.content-info > p{
+    width: 90%;
+}
+
+.content-info > em{
+    color: rgb(170, 170, 170);
+}
+
 .title{
     font-size: 50px;
     font-weight: 700;
 }
 
-
-.body-title{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-}
-
-.body-title > img{
-    margin: 10px;
-    width: 100px;
-    border-radius: 360px;
-}
-
-.body-content-reviews{
-    display: block;
-    width: 100%;
-}
-
-.articulo{
-    display: flex;
-    align-items: center;
-}
-
-
-.body-content-reviews img{
-    width: 300px;
-    border: solid 2px #000;
-}
-
 .sub-title{
-    color: rgb(53, 53, 53);
+    color: rgb(0, 139, 204);
 }
 
 .center{
     text-align: center;
 }
 
-.active-page{
-    border-bottom: solid 2px #000;
+.video{
+    width: 53%
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+    #body{
+        width: 100%;
+        padding: 0;
+    }
+
     #nav > ol > li{
         font-size: 15px;
         margin: 0 5px;
         padding: 10px 0px;
     }
 
-    #body{
-        width: 100%;
-        padding: 0;
+    .body-header{
+        border-left: none;
+        border-right: none;
+        padding: 15vh 0vh;
     }
 
+    .content-info{
+        margin: 10px;
+    }
+
+    .content-info > img{
+        width: 100%;
+    }
+    
     .title{
         font-size: 20px;
         font-weight: 700;
+    }
+
+    .video{
+        width: 100%
     }
 }

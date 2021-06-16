@@ -86,8 +86,7 @@ a{
 }
 
 .content-info > img{
-    width: 60%;
-    border-left: solid 5px #000;
+    width: 53%;
 }
 
 .content-info > p{
@@ -131,6 +130,10 @@ a{
 
     .content-info{
         margin: 10px;
+    }
+
+    .content-info > img{
+        width: 100%;
     }
     
     .title{
